@@ -9,7 +9,11 @@ $serverip = $_SERVER['SERVER_ADDR'];
 
 ?>
 
-
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 <h3>System Information</h3>
 
 	<table>
@@ -37,3 +41,4 @@ Remote Port: <?php echo $_SERVER['REMOTE_PORT'] ?>
 			<td><pre><?php echo $vmstatout ?></pre></td>
 		</tr>
 	</table>
+</body>
