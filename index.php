@@ -67,9 +67,9 @@ if ($hostname == "raspberrypi03") { ?>
 <h3>Services</h3>
 
 	<ul>
-	<li><a href="http://<?php echo $serverip; ?>/sys/sysinfo.php">sysinfo</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/gpio.php">GPIO readall</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/phpinfo.php">phpinfo</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/sysinfo.php">sysinfo</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/gpio.php">GPIO readall</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/phpinfo.php">phpinfo</a>
 	<li><a href="http://<?php echo $serverip; ?>:8088/monitorix">Monitorix</a>
 	<li><a href="http://<?php echo $serverip; ?>/phpsysinfo">phpsysinfo</a>
 	</ul>
@@ -82,13 +82,13 @@ if ($hostname == "raspberrypi03") { ?>
 <h3>Log Files</h3>
 
 	<ul>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=1">/home/pi/testgpio.log</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=2">/var/log/syslog</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=3">/var/log/user.log</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=4">/var/log/boot.log</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=5">/var/log/picmdd/cron-photo.log</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=6">/var/log/picmdd/gpio.log</a>
-	<li><a href="http://<?php echo $serverip; ?>/sys/taillog.php?file=7">/var/log/picmdd/picmdd.log</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=1">/home/pi/testgpio.log</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=2">/var/log/syslog</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=3">/var/log/user.log</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=4">/var/log/boot.log</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=5">/var/log/picmdd/cron-photo.log</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=6">/var/log/picmdd/gpio.log</a>
+	<li><a href="http://<?php echo $serverip; ?>/pisys/taillog.php?file=7">/var/log/picmdd/picmdd.log</a>
 
 	</ul>
 
